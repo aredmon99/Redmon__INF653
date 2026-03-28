@@ -1,5 +1,6 @@
 <?php
-require_once '../models/types_db.php';
+require_once('../models/types_db.php');
+
 
 $action = $_GET['action'] ?? 'list';
 

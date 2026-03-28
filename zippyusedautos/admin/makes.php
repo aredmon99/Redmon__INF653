@@ -1,5 +1,5 @@
 <?php
-require_once '../models/makes_db.php';
+require_once('../models/makes_db.php');
 
 $action = $_GET['action'] ?? 'list';
 
