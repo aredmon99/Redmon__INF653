@@ -1,0 +1,5 @@
+
+[2026-04-14T02:58:32.115Z]
+ERROR NAME: Error
+MESSAGE: Intentional test error!
+----------------------------------------
