@@ -1,12 +1,9 @@
-//Npm packages 
 const {format} = require('date-fns');
 const {v4: uuidv4} = require('uuid');
 
-//core modules 
 const fs = require('fs');
 const path = require('path');
 
-//logEvents funtion 
 const logEvents = async(message) =>{
     const logId = uuidv4();
     const timestamp = format(new Date(), 'yyyy-MM-dd HH:mm:ss');
